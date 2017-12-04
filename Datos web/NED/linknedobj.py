@@ -18,7 +18,7 @@ dec = list(map(lambda x: x.replace('+','%2B'), dec))
 
 # Almacenamos todos los urls y creamos un csv donde vamos guardando a su vez los enlaces
 urls = []
-file = open ("./enlaces.csv", "w")
+file = open ("./enlacesobj.csv", "w")
 for j in range(0, len(ra)):
   urls.append(SDSS_IMAGES_URL[0] + ra[j] + dec[j] + SDSS_IMAGES_URL[1])
   file.write(urls[j] + '\n')

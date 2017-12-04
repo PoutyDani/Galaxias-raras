@@ -15,7 +15,7 @@ fiber = list(data.fiberid)
 
 # Almacenamos todos los urls y creamos un csv donde vamos guardando a su vez los enlaces
 urls = []
-file = open ('./enlaces.csv', 'w')
+file = open ('./enlaces12.csv', 'w')
 for j in range(0, len(plate)):
   urls.append(SDSS_IMAGES_URL + mjd[j] + '&fiber=' + fiber[j] + '&plateid=' + plate[j])
   file.write(urls[j] + '\n')
