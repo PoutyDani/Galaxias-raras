@@ -4,7 +4,7 @@ import pandas # Librería para trabajar con csv
 
 # Constantes
 
-SDSS_IMAGES_URL = ['http://simbad.u-strasbg.fr/simbad/sim-coo?Coord=', '+', '&Radius=2&Radius.unit=arcmin&submit=submit+query']
+SDSS_IMAGES_URL = ['http://simbad.u-strasbg.fr/simbad/sim-coo?Coord=', '+', '&Radius=0.5&Radius.unit=arcmin&submit=submit+query']
 
 # Tomamos con la librería panda los elementos de csv y los separamos en dos arrays
 data = pandas.read_csv('./galaxias_sexa/Galaxias0.csv', header = 0, dtype = str)
