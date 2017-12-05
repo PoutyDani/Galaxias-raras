@@ -66,4 +66,4 @@ En este repositorio hay tres directorios principales:
 
   - **web**: Contiene los ficheros 'html' resultantes (**web*num*.htm**) generados por el código principal, es decir la página web.
 
-  - **creahtmls.py**: Código principal que me genera la página web en **web** tomando los datos de **Datos**, **imagenes**, **imagenes_spec** y **Recursos**. Para ejecutar "python creahtmls.py".
+  - **creahtmls.py**: Código principal que me genera la página web en **web** tomando los datos de **Datos**, **imagenes**, **imagenes_spec** y **Recursos**. Para ejecutar "python creahtmls.py" (usa las librerías: os, pandas, numpy).
