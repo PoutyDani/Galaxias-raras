@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Algoritmo que nos descarga todos los enlaces CAS acudiento a las coordenadas de las galaxias en galaxias_dec
 # y nos lo almacena en enlaces.
 

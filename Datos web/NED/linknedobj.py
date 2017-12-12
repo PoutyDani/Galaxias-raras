@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Tomando las coordenadas de las galaxias de galaxias_sexag devuelve los enlaces de la página web en enlaces.
 
 import pandas # Librería para trabajar con csv

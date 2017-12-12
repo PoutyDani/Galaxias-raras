@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Se recoge la información de las galaxias plate, mjd y fiber de galaxias_dec y se almacenan los enlaces interactivos
 # de los espectros en enlaces
 

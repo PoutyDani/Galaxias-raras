@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Este algoritmo toma las id de las galaxias y nos crea images, directorio con los espectros de las galaxias y enlaces, fichero csv con
 # los enlaces de donde se descargaron.
 

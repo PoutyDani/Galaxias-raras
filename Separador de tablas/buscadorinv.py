@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Este algoritmo toma todas las tablas de las galaxias y devuelve a que tabla pertence cada galaxia en listas.
 
 import pandas # Librería para trabajar con csv

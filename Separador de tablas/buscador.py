@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Este algoritmo toma las posiciones de todas las galaxias y las de cada tabla y devuelve posiciones, un csv donde se almacena en
 # cada línea la posición donde están las galaxias de cada tabla en la total. Luego hacemos exactamente lo mismo pero para las
 # posiciones de las galaxias que son observables o no desde Paranal y ORM.

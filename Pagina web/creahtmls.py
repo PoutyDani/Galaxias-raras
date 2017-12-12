@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 # Tomando toda la información almacenada hasta ahora este algorimto devuelve 19 fichero html (web0 el que lo contiene todo)
 
 import os # Librería para gestionar ficheros, carpetas, etc
@@ -39,6 +41,8 @@ dec = list(info_dec.dec)
 z = list(info_dec.z)
 ra_sex = list(info_sexa.ra)
 dec_sex = list(info_sexa.dec)
+obs_muse = list(info_sexa.obsmuse)
+obs_meg = list(info_sexa.obsmeg)
 
 ra_sex_orden = list(map(lambda x: float(x), ra_sex))
 dec_sex_vis = list(map(lambda x: float(x), dec_sex))
@@ -88,7 +92,7 @@ for j in range(0,NUM_TABLAS):
     filas = filas.replace('enlaces_spec[i]',enlaces_spec[i]).replace('enlaces_cas[i]',enlaces_cas[i]).replace('enlaces_spec_inter[i]',enlaces_spec_inter[i])
     filas = filas.replace('enlaces_ned[i]',enlaces_ned[i]).replace('vis_orm[i]',vis_orm[i]).replace('vis_paranal[i]',vis_paranal[i])
     filas = filas.replace('enlaces_simbad[i]',enlaces_simbad[i]).replace('nombre_ned[i]',nombre_ned[i])
-    filas = filas.replace('cond_cumple[i]',cond_cumple[i]).replace('ardilla[i]',ardilla[i])
+    filas = filas.replace('cond_cumple[i]',cond_cumple[i]).replace('ardilla[i]',ardilla[i]).replace('obs_muse[i]',obs_muse[i]).replace('obs_meg[i]',obs_meg[i])
     fila.append(filas)
 
   web = open("./web/web" + str(j) + ".htm", "w")

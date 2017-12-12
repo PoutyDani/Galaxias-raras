@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 # Este algoritmo toma las coordenadas de las galaxias y nos crea images, directorio con las imágenes de las galaxias y enlaces, fichero csv con
 # los enlaces de donde se descargaron. Teniendo en cuenta que algunas imágenes no admiten el parámetro S (object with spectra). Donde primero se
 # calcularon los enlaces defectuosos (código que se dejó comentado) y posteriormente se añadieron en DEFECT para así poder descargar todas las
