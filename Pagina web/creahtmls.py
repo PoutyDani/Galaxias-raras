@@ -70,6 +70,8 @@ cond_cumple = []
 
 for i in range(0,len(ip)):
   nombre_ned.append('SDSS J' + ra_sex[i] + dec_sex[i][:-1])
+  obs_muse[i] = obs_muse[i].replace('YES', '<a href="../imagenes/MUSE_RGB/' + nombre_ned[i] + '.png">YES</a>')
+  obs_meg[i] = obs_muse[i].replace('YES', '<a href="../imagenes/MEG_RGB/' + nombre_ned[i] + '.png">YES</a>')
   ra_sex[i] = ra_sex[i][:2] + 'h' + ra_sex[i][2:4] + 'm' + ra_sex[i][4:] + 's'
   dec_sex[i] = dec_sex[i][:3] + 'd' + dec_sex[i][3:5] + 'm' + dec_sex[i][5:] + 's'
   if dec_sex_vis[i] >= 50000:

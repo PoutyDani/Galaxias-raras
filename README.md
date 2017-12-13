@@ -48,7 +48,13 @@ En este repositorio hay tres directorios principales:
 
     - **posiciones.csv**: Contiene las posiciones en las que están ubicadas las galaxias de cada tabla en la tabla total.
 
-  - **imagenes**: Contiene el directorio **Galaxias0** que contiene todas las imágenes en 'jpg' descargadas de las galaxias.
+  - **imagenes**: En ella están las imágenes de las galaias.
+
+    - **Galaxias0**: Contiene todas las imágenes en 'jpg' descargadas de SDSS.
+
+    - **MEGARA_RGB**: Contiene imágenes RGB que se van generando cada vez que el telescopio MEGARA observe una de las galaxias.
+
+    - **MUSE_RGB**: Contiene imágenes RGB que se van generando cada vez que el telescopio MUSE observe una de las galaxias.
 
   - **imagenes_spec**: Contiene el directorio **Galaxias0** que contiene todos los espectros en 'jpg' descargados de las galaxias.
 
